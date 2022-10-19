@@ -404,7 +404,6 @@ class MyGame(ShowBase):
         pivot.getParent().hide()
         pivot.hide()
         for cube in cubes:
-            cube: NodePath
             cube.wrtReparentTo(self.cube_model)
 
     def collide(self, num: int, collEntry: CollisionEntry):
@@ -489,6 +488,6 @@ class MyGame(ShowBase):
 
 
 if __name__ == '__main__':
-    game = MyGame(debug=True)
+    game = MyGame(debug=False)
     game.cam.node().getDisplayRegion(0).setSort(1)
     game.run()

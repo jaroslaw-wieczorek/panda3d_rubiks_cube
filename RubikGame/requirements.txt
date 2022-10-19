@@ -1,10 +1,10 @@
-evdev==1.4.0
-numpy==1.21.4
-Panda3D==1.10.10
-panda3d-blend2bam==0.19
-panda3d-boterham==0.2
+evdev==1.6.0
+numpy==1.23.4
+Panda3D==1.10.12
+panda3d-blend2bam==0.20
+panda3d-boterham==0.33
 panda3d-gltf==0.13
-panda3d-simplepbr==0.9
-pynput==1.7.5
+panda3d-simplepbr==0.10
+pynput==1.7.6
 python-xlib==0.31
 six==1.16.0

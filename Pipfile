@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+evdev = "==1.6.0"
+numpy = "==1.23.4"
+panda3d = "==1.10.12"
+panda3d-blend2bam = "==0.20"
+panda3d-boterham = "==0.33"
+panda3d-gltf = "==0.13"
+panda3d-simplepbr = "==0.10"
+pynput = "==1.7.6"
+python-xlib = "==0.31"
+six = "==1.16.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
